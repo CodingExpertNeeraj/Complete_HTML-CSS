@@ -1,3 +1,6 @@
+body{
+    box-sizing: border-box;
+}
 .box{
     background-color: blueviolet;
     height: 100px;
@@ -9,6 +12,7 @@
 section{
     border: 1px solid #000;
     margin: 5px;
+    /* display: inline; */
 }
 h1{
     text-align: center;
@@ -18,5 +22,13 @@ h1{
     background-color: blue;
     border: 1px solid black;
     display: inline;
-    margin: 5px;
+    /* margin: 5px; */
+    /* padding: 5px; */
+}
+.cont{
+    display: inline-block;
+    background-color: black;
+    color: aqua;
+    padding: 10px;
+    margin: 2px;
 }
