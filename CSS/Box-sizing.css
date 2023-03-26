@@ -1,0 +1,27 @@
+body{ 
+    background-color: aqua;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    /* overflow:scroll; */
+    padding: 20px;
+    /* box-sizing: border-box; */
+    
+}
+#box2{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    
+}
+.first{
+    text-align: center;
+}
+.sec{
+    /* display: flex; */
+}
