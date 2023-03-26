@@ -1,0 +1,22 @@
+.box{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    /* outline: 1px; */
+    border: 1px solid black;
+}
+section{
+    border: 1px solid #000;
+    margin: 5px;
+}
+h1{
+    text-align: center;
+    background-color: greenyellow;
+}
+.dabba{
+    background-color: blue;
+    border: 1px solid black;
+    display: inline;
+    margin: 5px;
+}
