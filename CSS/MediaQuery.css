@@ -1,0 +1,26 @@
+img{
+    display: inline-block;
+}
+.container{
+    height: 200px;
+    width: 60%;
+    background-color: brown;
+    border: 2px solid black;
+    float: left;
+    box-sizing: border-box;
+    padding: 2px;
+    /* display: inline; */
+}
+.cont{
+    width: 40%;
+    background-color: lawngreen;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 2px;
+    float: left;
+}
+@media screen and ( max-width:600px){
+    .container{
+        width: 100%;
+    }
+}
