@@ -1,0 +1,9 @@
+section{
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+.hading{
+    text-align: center;
+}
