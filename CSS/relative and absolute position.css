@@ -6,21 +6,42 @@
 .box{
     border: 1px solid black;
     width: 400px;
-    height: 400px;
+    height: 100;
     margin: 5px;
     padding: 5px;
     
 }
 .box img{
     position: relative;
-    /* top: 50px; */
+    top: 50px;
+    left: 100px;
 }
 .box p{
     position: relative;
     /* left: 50px; */
     top: 130px;
-    left: 10px;
+    left: 100px;
     /* color: white; */
+}
+h1{
+    text-align: center;
+    margin-top: 2px;
+}
+.box2{
+    border: 1px solid black;
+    padding: 10px;
+}
+.blue, .red, .green{
+    height: 100px;
+    /* border: 1; */
+    background-color:blue;
+    width: 100px;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
 }
 
 /* 17 march - 4500 ; */
