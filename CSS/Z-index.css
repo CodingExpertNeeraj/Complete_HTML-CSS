@@ -1,0 +1,36 @@
+.box1{
+    height: 100px;
+    background-color: blanchedalmond;
+    width: 100px;
+    /* margin: 5px; */
+    position: relative;
+    top: 50px;
+    left: 70px;
+    z-index: 2;
+}
+.box2{
+    height: 100px;
+    background-color: rgb(4, 86, 238);
+    width: 100px;
+    /* margin: 5px; */
+    position: relative;
+    /* top: 70px; */
+    left: 80px;
+    z-index: 4;
+}
+.box3{
+    height: 100px;
+    background-color: rgb(247, 5, 206);
+    width: 100px;
+    /* margin: 5px; */
+    position: relative;
+    /* left: 90px; */
+    bottom: 50px;
+    left: 90px;
+}
+h1{
+    text-align: center;
+}
+.container{
+    border: 2px solid black;
+}
