@@ -1,0 +1,35 @@
+.box1, .box2, .box3,.box4{
+    width: 200px;
+    /* height: 300px; */
+    border: 1px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    /* display: flex; */
+    margin: 5px;
+    display: inline-block;
+}
+ img{
+    width: 100%;
+    /* height: fit-content; */
+    /* margin: 5px; */
+    box-sizing: border-box;
+    /* width: auto; */
+}
+@media(max-width:440px){
+    .box1, .box2, .box3,.box4{
+        width: 100%;
+        margin: 5px;
+    }
+}
+.box1:hover{
+    /* transition: 3px; */
+    /* opacity: 0.8; */
+    /* transition: 90deg; */
+    /* background-color: aqua; */
+    transition: 10s;
+    /* transform: scale(0.5); */
+    transform: rotateY(-190deg);
+
+    
+
+}
