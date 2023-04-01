@@ -1,0 +1,34 @@
+.container{
+    background-color: aquamarine;
+    position: relative;
+    /* left: 100px; */
+    top: 100px;
+    display: grid;
+    /* columns: 8; */
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50px 50px 100px 80px;
+}
+.a1{
+    background-color: goldenrod;
+}
+.a2{
+    background-color: rgb(12, 243, 4);
+}
+.a3{
+    background-color: rgb(243, 6, 192);
+}
+.a4{
+    background-color: rgb(82, 32, 218);
+}
+.a5{
+    background-color: rgb(218, 69, 32);
+}
+.a6{
+    background-color: rgb(136, 132, 121);
+}
+.a7{
+    background-color: rgb(240, 6, 25);
+}
+.a8{
+    background-color: rgb(129, 3, 119);
+}

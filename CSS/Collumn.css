@@ -1,0 +1,7 @@
+p{
+    /* columns: 8; */
+    /* grid-auto-rows: 5px; */
+    /* grid-row: 4; */
+    column-rule: 1px solid red;
+    column-width: 40px;
+}
