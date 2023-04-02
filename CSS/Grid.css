@@ -1,14 +1,14 @@
 .container{
     background-color: aquamarine;
     position: relative;
-    /* left: 100px; */
+    /* left: 100px;
     top: 100px;
-    display: grid;
+    display: grid; */
     /* columns: 8; */
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50px 50px 100px 80px;
+    /* grid-template-columns: 50% 50%;
+    grid-template-rows: 50px 50px 100px 80px; */
 }
-.a1{
+/* .a1{
     background-color: goldenrod;
 }
 .a2{
@@ -31,4 +31,16 @@
 }
 .a8{
     background-color: rgb(129, 3, 119);
+} */
+
+.container2{
+    /* display: grid; */
+    /* grid-template-columns:repeat(auto-fill,200px); */
+    border: 2px solid ;
+    /* columns: 8; */
+    margin:10px, auto;
+}
+img{
+    width: 200px;
+    /* height: fit-content; */
 }
