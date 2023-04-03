@@ -19,7 +19,7 @@
 .box p{
     position: relative;
     /* left: 50px; */
-    top: 130px;
+    top: 30px;
     left: 100px;
     /* color: white; */
 }
@@ -30,15 +30,32 @@ h1{
 .box2{
     border: 1px solid black;
     padding: 10px;
+    display: flex;
+    justify-content:center;
+    /* align-items: center; */
+    text-align: center;
+}
+span{
+    font-size: 15px;
+    font-family: monospace;
 }
 .blue, .red, .green{
     height: 100px;
     /* border: 1; */
     background-color:blue;
     width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .red{
     background-color: red;
+    position: absolute;
+    /* top: 80px; */
+    /* left: 50px; */
+    /* right: 40px; */
+    /* bottom: 90px; */
 }
 .green{
     background-color: green;
