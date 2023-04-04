@@ -1,0 +1,12 @@
+.main{
+    width: 200px;
+    height: 200px;
+    background-color: peru;
+    transition: all;
+}
+.main:hover{
+    width: 100%;
+    transition-duration: 10s;
+    transition-timing-function: 2s;
+    transform: rotate(250deg);
+}
