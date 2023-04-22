@@ -14,6 +14,8 @@ body{
     justify-content: center;
     align-items: center;
     background: rgba(0, 0,0, 0.5);
+    overflow: hidden;
+    border-radius: 20px;
 }
 .box::before{
     content: '';
@@ -21,7 +23,22 @@ body{
     width: 150px;
     height: 100%;
     background: linear-gradient(#00ccff,#d400d4);
-    animation: alternate 4s linear infinite;
+    animation: animate 4s linear infinite;
+}
+.box::after{
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: #0e1538;
+    border-radius: 16px;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 .box h2{
     color: #fff;
