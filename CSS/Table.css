@@ -1,0 +1,43 @@
+table{
+    border: 2px solid;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+tr{
+    border: 1px solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid;
+}
+
+th{
+    border: 1px solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+tfoot>th{
+    text-align: center;
+    border: none;
+}
+
+.card{
+    width: 250px;
+    height: 300px;
+    border: 1px solid;
+    margin-top: 25px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.card img{
+    width: 50%;
+    border-radius: 80%;
+    position: relative;
+    left: 25%;
+    bottom: 50px;
+    
+}

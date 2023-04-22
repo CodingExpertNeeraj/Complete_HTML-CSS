@@ -1,0 +1,15 @@
+
+.box{
+    border: 1px solid;
+    /* height: 100vh; */
+    padding: 50px;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.required::before{
+    content: "*";
+    color: red;
+}
