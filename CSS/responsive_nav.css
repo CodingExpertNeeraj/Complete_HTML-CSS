@@ -1,0 +1,54 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Dancing+Script&family=Hurricane&family=M+PLUS+Rounded+1c:wght@100&family=Quicksand:wght@300&family=Roboto:wght@100;400&family=Source+Sans+Pro:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family:  'Roboto', sans-serif
+}
+.logo img{
+    /* width: 40px; */
+    height: 40px;
+    border-radius: 50%;
+    filter: invert(100%);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0c030b;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 44%;
+}
+ul li a{
+    font-weight: 500;
+    text-decoration: none;
+}
+ul li:not(:last-child) a:hover, ul li a.active{
+    text-decoration: underline 2px;
+    text-underline-offset: 4px;
+    color: #4ca8c1;
+    text-decoration-color: #fff;
+    /* transition: 2s; */
+    
+}
+ul li{
+    list-style: none;
+}
+.btn{
+    font-weight: 700;
+    padding: 8px 20px;
+    background: #4ca8c1;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #0091ff;
+    color: black;
+}
